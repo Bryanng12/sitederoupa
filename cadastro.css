@@ -1,38 +1,36 @@
 #container{
-    background-color: gray;
+    background-color: white;
     display: grid;
     place-items: center;
 }
 
 
 
-.cadastro {
-   background-color: lightgray;
-    width: 300px;
-    height: auto;
-    
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
+body.container {
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    margin: 0;
+    background-color: rgb(255, 255, 255);
+}
+form.cadastro {
+      background: #fff;
+    padding: 32px 24px;
+    border-radius: 12px;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.16); 
+    min-width: 320px;
+    max-width: 360px;
+    width: 100%;
     display: flex;
     flex-direction: column;
-    row-gap: 10px;
-    column-gap: 30px;   
-    border: 5px solid black;
-      
-    margin: auto;
-
-    flex-grow: 0 ;
-    flex-shrink: 1 ;
-    flex: 0 0 auto;
-    border-radius: 10px 10px 10px 10px; 
- 
+    gap: 12px;
+     text-align: center;
+    margin: 0 auto;
+    border: none;
+}
+form.cadastro h2 {
+    text-align: center;
+    margin-bottom: 8px;
 }
 
-.cadastro input {
-    width: 80%;
-    height: 30px;
-    margin: 10px;
-    border-radius: 5px;
-}
+
